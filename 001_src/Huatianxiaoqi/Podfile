@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+target 'Huatianxiaoqi' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Huatianxiaoqi
+  pod 'Alamofire', '~> 4.0'
+  #pod 'SnapKit', '~> 4.0' ## 自动布局
+  pod 'Kingfisher', '~> 3.0' ## 轻量级的SDWebImage
+  pod 'SwiftyJSON', '~> 4.2.0'
+  pod 'HandyJSON', '~> 4.1.1'
+ # pod 'Kingfisher', '~> 3.0' ## 轻量级的SDWebImage
+  pod 'IBAnimatable'
+  pod 'SwiftTheme', '0.3.3'
+  pod 'RxSwift', '~> 4.5.0'
+  pod 'RxCocoa', '~> 4.5.0'
+  pod 'SQLite.swift', '0.11.5'
+  pod 'SVProgressHUD'
+  pod 'MJRefresh'
+  pod 'SGPagingView', '1.4.0'
+  pod 'BMPlayer', '1.0.1'
+  pod 'FDFullscreenPopGesture'
+  # # pod 'Texture'
+  pod 'lottie-ios', '2.5.3'
+
+end
